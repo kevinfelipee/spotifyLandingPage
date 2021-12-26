@@ -1,0 +1,125 @@
+@media screen and (min-width: 1020px) {
+    .container{
+        flex-direction: row;
+        justify-content: center;
+        padding: 100px;
+    }
+    .button{
+        display: block;
+        padding: 17px 40px;
+        border-radius: 500px;
+        width: 270px;
+    }
+    .img{
+        width: 400px;
+        margin-top: 0;
+        margin-left: 25px;
+    }
+    .title-container{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 72px;
+        text-align: left;
+    }
+    .text-container{
+        font-size: 24px;
+        line-height: 36px;
+        text-align: left;
+        max-width: 650px;
+    }
+    .subtitle{
+        text-align: left;
+        font-size: 14px;
+        margin-left: 5px;
+        font-weight: 600;
+    }
+
+    .btn-spotify{
+        display: none;
+    }
+    .content{
+        padding: 0px;
+    }
+    .img2{
+        width: 600px;
+        margin-left: 25px;
+    }
+    .download{
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+    .link p{
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .third-section{
+        height: 450px;
+    }
+
+    .mobile-nav{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /*Footer*/
+    .footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 100px;
+        justify-content: space-between;
+    }
+    .icons-footer{
+        align-items: flex-start;
+    }
+    .icon-spotify{
+        width: auto;
+    }
+    .icons-footer a{
+        padding: 15px;
+    }
+    .footer div, .footer ul{
+        margin-right: 20px;
+    }
+    .footer div:last-child{
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .footer-secondary{
+        padding: 0 20px 40px 20px;
+    }
+    .link-footer-2{
+        font-size: 10px;
+    }
+    .spans-footer a, .spans-footer span{
+        font-size: 10px;
+    }
+
+    /*Nav*/
+    .ul-nav, .div-profile a{
+        display: none;
+    }
+    .img-profile, .hamburgue{
+        display: block;
+    }
+    header{
+        padding: 10px;
+    }
+    .icon-spotify-nav{
+        width: 100px;
+    }
+    
+}
+
+@media screen and (min-width:2000px) {
+    .third-section{
+        background-position: right;
+    }
+    .footer{
+        justify-content: space-evenly;
+    }
+}
